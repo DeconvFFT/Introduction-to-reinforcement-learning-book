@@ -1,0 +1,10 @@
+title: Introduction to Reinforcement Learning
+author: Saumya Mehta
+logo: logo.png
+execute:
+  execute_notebooks: force
+
+# bibtex file to create citations
+bibtex_bibfiles:
+  - references.bib
+  
