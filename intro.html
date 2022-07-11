@@ -171,6 +171,24 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-reinforcement-learning">
+   What is reinforcement learning?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-concepts">
+   Key Concepts
+  </a>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -183,6 +201,24 @@ const thebe_selector_output = ".output, .cell_output"
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-reinforcement-learning">
+   What is reinforcement learning?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-concepts">
+   Key Concepts
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -191,16 +227,19 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="introduction-to-reinforcement-learning">
 <h1>Introduction to Reinforcement Learning<a class="headerlink" href="#introduction-to-reinforcement-learning" title="Permalink to this headline">¶</a></h1>
-<p>This book covers theoretical and practical aspects of Reinforcement learning</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>How to read this book!</p>
-</div>
-<p>And here is a code block:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">e</span> <span class="o">=</span> <span class="n">mc</span><span class="o">^</span><span class="mi">2</span>
+<div class="section" id="what-is-reinforcement-learning">
+<h2>What is reinforcement learning?<a class="headerlink" href="#what-is-reinforcement-learning" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Reinforcement Learning is a study of agents and how they learn by trial and error. An agent takes an action and recieves a reward/punishment which makes the agent more likely to repeat or forgo that behaviour in the future.
 </pre></div>
 </div>
-<p>Check out the content pages bundled with this sample book to see more.</p>
+</div>
+<div class="section" id="key-concepts">
+<h2>Key Concepts<a class="headerlink" href="#key-concepts" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>The main characters in Reinforcement Learning are the agent and the environment. Environment is the world that the agent interacts with. At every step, the agent sees an observation(maybe partial)
+of the state of the environment and decides to take an action. The action changes the state of the environment and the agent recieves a reward signal. The reward signal tells the agent how good or bad the current state of the environment is. The goal of the agent is to maximize the cumulative reward (also called **return**).
+</pre></div>
+</div>
+</div>
 <div class="toctree-wrapper compound">
 </div>
 </div>
