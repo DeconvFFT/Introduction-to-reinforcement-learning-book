@@ -1,4 +1,4 @@
-# Here's my sample title
+# Value Iteration
 
 This is some sample text.
 
