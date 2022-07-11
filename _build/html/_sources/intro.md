@@ -1,10 +1,9 @@
-# Welcome to your Jupyter Book
+# Introduction to Reinforcement Learning
 
-This is a small sample book to give you a feel for how book content is
-structured.
+This book covers theoretical and practical aspects of Reinforcement learning
 
 :::{note}
-Here is a note!
+How to read this book!
 :::
 
 And here is a code block:
