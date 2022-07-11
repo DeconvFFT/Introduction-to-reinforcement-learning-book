@@ -1,4 +1,8 @@
 format: jb-book
 root: intro
-chapters:
-- file: value-iteration
+parts:
+  - caption: Tabular MDPs
+  chapters:
+    - file: intro
+    - file: value-iteration
+    
