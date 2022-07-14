@@ -11,5 +11,5 @@ of the state of the environment and decides to take an action. The action change
 A state s, is a complete description of the world. An observation is a partial description of the state which may remove some information from the state. An example of a state would be joint angles and velocities of a robot or an RGB matrix of pixel values in case of atari games. When the agent is able to observe complete state of the environment, the environment is fully observable; while if the agent can only observe a partial observation, that environment is partially observable.
 
 ### Action spaces
-
+An action space is a set of valid actions in an environment. Some environments have **discrete action space** where there are only a finite number of actions available to the agent. Other more complex environments like robot navigation in a physical world may have **continuous action space** where there are a lot of actions to choose from. In a continuous action space environment, the actions are represented by real-valued vectors.
 
