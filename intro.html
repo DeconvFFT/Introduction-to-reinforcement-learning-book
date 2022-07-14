@@ -185,6 +185,18 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal nav-link" href="#key-concepts">
    Key Concepts
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#state">
+     State
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#action-spaces">
+     Action spaces
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -215,6 +227,18 @@ const thebe_selector_output = ".output, .cell_output"
   <a class="reference internal nav-link" href="#key-concepts">
    Key Concepts
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#state">
+     State
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#action-spaces">
+     Action spaces
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -235,6 +259,13 @@ const thebe_selector_output = ".output, .cell_output"
 <h2>Key Concepts<a class="headerlink" href="#key-concepts" title="Permalink to this headline">¶</a></h2>
 <p>The main characters in Reinforcement Learning are the agent and the environment. Environment is the world that the agent interacts with. At every step, the agent sees an observation(maybe partial)
 of the state of the environment and decides to take an action. The action changes the state of the environment and the agent recieves a reward signal. The reward signal tells the agent how good or bad the current state of the environment is. The goal of the agent is to maximize the cumulative reward (also called <strong>return</strong>).</p>
+<div class="section" id="state">
+<h3>State<a class="headerlink" href="#state" title="Permalink to this headline">¶</a></h3>
+<p>A state s, is a complete description of the world. An observation is a partial description of the state which may remove some information from the state. An example of a state would be joint angles and velocities of a robot or an RGB matrix of pixel values in case of atari games. When the agent is able to observe complete state of the environment, the environment is fully observable; while if the agent can only observe a partial observation, that environment is partially observable.</p>
+</div>
+<div class="section" id="action-spaces">
+<h3>Action spaces<a class="headerlink" href="#action-spaces" title="Permalink to this headline">¶</a></h3>
+</div>
 </div>
 <div class="toctree-wrapper compound">
 </div>
