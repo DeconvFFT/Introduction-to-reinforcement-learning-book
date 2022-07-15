@@ -48,6 +48,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Markov Decision Process" href="Tabular-MDPs/MDP.html" />
@@ -284,7 +286,7 @@ of the state of the environment and decides to take an action. The action change
 </div>
 <div class="section" id="policy">
 <h3>Policy<a class="headerlink" href="#policy" title="Permalink to this headline">¶</a></h3>
-<p>A policy is a rule used by an agent to decide what action to take. A policy can be <strong>deterministic</strong> or <strong>stochastic</strong>.  A deterministic policy allows the agent to decide an action using only an observation of the state of the environment. It is denoted by</p>
+<p>A policy is a rule used by an agent to decide what action to take. A policy can be <strong>deterministic</strong> or <strong>stochastic</strong>.  A deterministic policy allows the agent to decide an action using only an observation of the state of the environment. It is denoted by <span class="math notranslate nohighlight">\(\mu\)</span></p>
 </div>
 </div>
 <div class="toctree-wrapper compound">
