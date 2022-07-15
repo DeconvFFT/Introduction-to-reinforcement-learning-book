@@ -15,4 +15,4 @@ An action space is a set of valid actions in an environment. Some environments h
 
 ### Policy
 A policy is a rule used by an agent to decide what action to take. A policy can be **deterministic** or **stochastic**.  A **deterministic policy** allows the agent to decide an action using only an observation of the state of the environment. It is denoted by $\mu$. The action taken on a deterministic policy can be written as **$a_t = \mu(s_t)$**
-A stochastic policy on the other hand needs random samples of trajectories from the current state in order to decide the action. It is denoted by $\pi$. The action taken on a stochastic policy can be written as **$ a_t = \pi(.|s_t)$**
+A **stochastic policy** on the other hand needs random samples of trajectories from the current state in order to decide the action. It is denoted by $\pi$. The action taken on a stochastic policy can be written as **$ a_t = \pi(.|s_t)$**
