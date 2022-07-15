@@ -14,4 +14,7 @@ A state s, is a complete description of the world. An observation is a partial d
 An action space is a set of valid actions in an environment. Some environments have **discrete action space** where there are only a finite number of actions available to the agent. Other more complex environments like robot navigation in a physical world may have **continuous action space** where there are a lot of actions to choose from. In a continuous action space environment, the actions are represented by real-valued vectors.
 
 ### Policy
-A policy is a rule used by an agent to decide what action to take. A policy can be **deterministic** or **stochastic**.  A deterministic policy allows the agent to decide an action using only an observation of the state of the environment. It is denoted by $\mu$
+A policy is a rule used by an agent to decide what action to take. A policy can be **deterministic** or **stochastic**.  A deterministic policy allows the agent to decide an action using only an observation of the state of the environment. It is denoted by $\mu$. The action taken on a deterministic policy can be written as:
+$$
+  a_t = \mu(s_t)
+$$
