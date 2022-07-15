@@ -50,7 +50,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Value Iteration" href="Tabular-MDPs/value-iteration.html" />
+    <link rel="next" title="Markov Decision Process" href="Tabular-MDPs/MDP.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -100,6 +100,11 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Tabular-MDPs/MDP.html">
+   Markov Decision Process
+  </a>
+ </li>
  <li class="toctree-l1">
   <a class="reference internal" href="Tabular-MDPs/value-iteration.html">
    Value Iteration
@@ -192,8 +197,13 @@ const thebe_selector_output = ".output, .cell_output"
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#action-spaces">
-     Action spaces
+    <a class="reference internal nav-link" href="#action-space">
+     Action space
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#policy">
+     Policy
     </a>
    </li>
   </ul>
@@ -234,8 +244,13 @@ const thebe_selector_output = ".output, .cell_output"
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#action-spaces">
-     Action spaces
+    <a class="reference internal nav-link" href="#action-space">
+     Action space
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#policy">
+     Policy
     </a>
    </li>
   </ul>
@@ -263,9 +278,13 @@ of the state of the environment and decides to take an action. The action change
 <h3>State<a class="headerlink" href="#state" title="Permalink to this headline">¶</a></h3>
 <p>A state s, is a complete description of the world. An observation is a partial description of the state which may remove some information from the state. An example of a state would be joint angles and velocities of a robot or an RGB matrix of pixel values in case of atari games. When the agent is able to observe complete state of the environment, the environment is fully observable; while if the agent can only observe a partial observation, that environment is partially observable.</p>
 </div>
-<div class="section" id="action-spaces">
-<h3>Action spaces<a class="headerlink" href="#action-spaces" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="action-space">
+<h3>Action space<a class="headerlink" href="#action-space" title="Permalink to this headline">¶</a></h3>
 <p>An action space is a set of valid actions in an environment. Some environments have <strong>discrete action space</strong> where there are only a finite number of actions available to the agent. Other more complex environments like robot navigation in a physical world may have <strong>continuous action space</strong> where there are a lot of actions to choose from. In a continuous action space environment, the actions are represented by real-valued vectors.</p>
+</div>
+<div class="section" id="policy">
+<h3>Policy<a class="headerlink" href="#policy" title="Permalink to this headline">¶</a></h3>
+<p>A policy is a rule used by an agent to decide what action to take. A policy can be <strong>deterministic</strong> or <strong>stochastic</strong>.  A deterministic policy allows the agent to decide an action using only an observation of the state of the environment. It is denoted by</p>
 </div>
 </div>
 <div class="toctree-wrapper compound">
@@ -297,10 +316,10 @@ of the state of the environment and decides to take an action. The action change
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="Tabular-MDPs/value-iteration.html" title="next page">
+    <a class='right-next' id="next-link" href="Tabular-MDPs/MDP.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Value Iteration</p>
+        <p class="prev-next-title">Markov Decision Process</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

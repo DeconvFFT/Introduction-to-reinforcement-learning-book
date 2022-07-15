@@ -10,6 +10,8 @@ of the state of the environment and decides to take an action. The action change
 ### State
 A state s, is a complete description of the world. An observation is a partial description of the state which may remove some information from the state. An example of a state would be joint angles and velocities of a robot or an RGB matrix of pixel values in case of atari games. When the agent is able to observe complete state of the environment, the environment is fully observable; while if the agent can only observe a partial observation, that environment is partially observable.
 
-### Action spaces
+### Action space
 An action space is a set of valid actions in an environment. Some environments have **discrete action space** where there are only a finite number of actions available to the agent. Other more complex environments like robot navigation in a physical world may have **continuous action space** where there are a lot of actions to choose from. In a continuous action space environment, the actions are represented by real-valued vectors.
 
+### Policy
+A policy is a rule used by an agent to decide what action to take. A policy can be **deterministic** or **stochastic**.  A deterministic policy allows the agent to decide an action using only an observation of the state of the environment. It is denoted by 
