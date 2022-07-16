@@ -25,3 +25,6 @@ A stochastic policy on the other hand needs random samples of trajectories from 
         $
         
 There are **parameterized** versions of deterministic and stochastic policies as well. Output of a parameterized policy is a function that depends on a set of parameters which we can adjust to change the behaviour. The parameters are geenrally denoted by $\phi$ or $\theta$ and the action taken on the parameterized policy is defined as  $a_t = \mu_{\theta}(s_t)$ in case of deterministic policy and  $a_t\sim \pi_{\theta}(.|s_t)$ in case of stochastic policy.
+
+#### Deterministic Policy
+A deteministic policy has a finite number of actions that can be taken from a given state. Here we are totally certain choose a particular action $a$ in an aribtrary state $s$. Deterministic policy can be written in the form $\pi(s): S -> A$ 

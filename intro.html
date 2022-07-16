@@ -219,6 +219,13 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="reference internal nav-link" href="#policy">
      Policy
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#deterministic-policy">
+       Deterministic Policy
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -266,6 +273,13 @@ const thebe_selector_output = ".output, .cell_output"
     <a class="reference internal nav-link" href="#policy">
      Policy
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#deterministic-policy">
+       Deterministic Policy
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -307,6 +321,10 @@ of the state of the environment and decides to take an action. The action change
             a_t \sim \pi(.|s_t)
         \)</span></p>
 <p>There are <strong>parameterized</strong> versions of deterministic and stochastic policies as well. Output of a parameterized policy is a function that depends on a set of parameters which we can adjust to change the behaviour. The parameters are geenrally denoted by <span class="math notranslate nohighlight">\(\phi\)</span> or <span class="math notranslate nohighlight">\(\theta\)</span> and the action taken on the parameterized policy is defined as  <span class="math notranslate nohighlight">\(a_t = \mu_{\theta}(s_t)\)</span> in case of deterministic policy and  <span class="math notranslate nohighlight">\(a_t\sim \pi_{\theta}(.|s_t)\)</span> in case of stochastic policy.</p>
+<div class="section" id="deterministic-policy">
+<h4>Deterministic Policy<a class="headerlink" href="#deterministic-policy" title="Permalink to this headline">¶</a></h4>
+<p>A deteministic policy has a finite number of actions that can be taken from a given state. Here we are totally certain choose a particular action <span class="math notranslate nohighlight">\(a\)</span> in an aribtrary state <span class="math notranslate nohighlight">\(s\)</span>. Deterministic policy can be written in the form <span class="math notranslate nohighlight">\(\pi(s): S -&gt; A\)</span></p>
+</div>
 </div>
 </div>
 <div class="toctree-wrapper compound">
